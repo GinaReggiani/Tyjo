@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alkalami', serif;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+header{
+    background-color: rgb(141, 0, 0);
+    height: 130px;
+}
+main{
+    background-color: rgb(27, 27, 27);
+}
+.marca img{
+    max-width: 100%;
+}
+nav{
+    text-align: right;
+    padding: 80px 60px 0 0;
+}
+.lista-nav {
+    text-decoration: none;
+    list-style: none;
+}
+nav a {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    text-decoration: none;
+    font-size: x-large;
+    margin-right: 60px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-size: contain;
+    overflow: hidden;
+    width: 95%;
+    height: 50vh;
+
+}
+.banner img {
+    object-fit: cover;
+    object-position: 10%;
+    max-width: 100%;
+
+}
+
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+.cont-main{
+    width: 95%;
+}
+.videos{
+    max-width: 100%;
+}
+.texto-josh{
+    font-size: 1.5em;
+    text-align: justify;
+}
+.video {
+    align-content: center;
+}
+.tyler-joseph {
+    text-align: center;
+    font-size: 1.5em;
+}
+aside {
+    background-color: rgb(141, 0, 0);
+}
+.footer {
+    background-color: rgb(141, 0, 0);
+}
+.footer a {
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: large; 
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.texto-tyler{
+    font-size: 1.5em;
+    text-align: justify;
+}
+.tyler-imagen img {
+    width: 865px;
+    height: 536px;
+    align-content: center;
+}
+.shows {
+    background-color: rgb(102, 0, 0);
+}
+.show-texto {
+    font-size: 1.5em;
+}
+.cont {
+    text-align: center;
+}
+.com {
+    font-size: larger;
+    text-align: center;
+}
+form {
+    padding: 2em;
+}
